@@ -49,7 +49,7 @@ object Functions extends App {
       if (t <= 1) true
       else n % t != 0 && isPrimeUntil(t - 1)
 
-    isPrimeUntil( n / 2)
+    isPrimeUntil(n / 2)
   }
   println(isPrimeFunction(37))
   println(isPrimeFunction(2003))
